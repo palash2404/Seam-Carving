@@ -1,0 +1,86 @@
+# Build artifacts
+bin/
+build/
+*.o
+*.obj
+*.out
+*.exe
+*.app
+
+# Specific executables for this project
+carve_opt
+carve_debug
+testrunner
+test_brightness
+test_image_cutting
+test_edge_cases
+test_color_processing
+test_boundary_values
+test_performance
+test_advanced_patterns
+test_special_cases
+test_seam_carving
+
+# Generated files
+out.ppm
+*.output
+carved_*.ppm
+test_output.ppm
+
+# Debug and profiling files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+core
+core.*
+gmon.out
+*.asan
+*.ubsan
+
+# Coverage files
+*.gcda
+*.gcno
+*.gcov
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.clangd/
+
+# System files
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+Thumbs.db
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Personal/sensitive files
+key-creation/
+
+# Compressed files (often contain large test data)
+*.tgz
+*.tar.gz
+*.zip
